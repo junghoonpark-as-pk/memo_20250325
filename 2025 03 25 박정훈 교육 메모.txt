@@ -1,0 +1,252 @@
+[how]교육 메모 준비
+# vscode portable install
+
+# git portable install
+
+
+# google join
+chrome/secret mode
+pk.public.4139@gmail.com
+
+# github join
+pk.public.4139@gmail.com
+decode(sec pw)
+junghoonpark-as-pk # github user name
+
+
+# chrome/logout
+# github logout
+
+
+
+
+
+
+
+KATRI 교육 이해 
+
+
+
+# 목표
+자율주행하면서 사고나지마
+# 물류배송 서비스
+NURO/자율주행물류로봇   #  도시 내 짧은 거리의 상품 배송을 혁신적으로 바꾸려는 목표를 가지고 있습니다.
+# 승객이동 서비스
+웨이모/자율주행택시
+자율주행버스
+
+
+# 개요
+자율주행기술레벨 2 : 유럽 NCAP (New Car Assessment Program, 신차 평가 프로그램) (성숙한 안전정책)
+lv 2(like ACC LCAS) 를 소비자가 과도한 자율주행기능 신뢰->유사사고사례->UN HandsOFF 특례 허용
+현 자율주행 레벨에서 사고가 일어나고 있다. 이를 제도적 제한 및 허용과 개선필요
+
+Degree of Automation? : Autonomous?
+
+
+
+# 자율주행자동차 기술수준
+웨이모/자율주행택시
+테슬라
+벹츠
+
+
+
+#레벨별 제어기술 법적 요구수준
+이정도 기능은 다 되야해
+종방향 지원 장치 (Longitudinal Support System)
+종방향 지원 장치는 차량의 전후방(앞뒤) 움직임을 자동으로 조절하여 주행을 보조하는 시스템
+이는 주로 **ADAS(첨단 운전자 지원 시스템)**의 일부로, 자율주행 기술과도 밀접한 관련이 있습니다.
+
+횡방향 지원 장치 (Lateral Support System)
+횡방향 지원 장치는 차량의 좌우 움직임(조향)을 자동으로 조절하는 시스템으로, 
+주로 차선 유지 및 차선 변경을 지원하는 ADAS(첨단 운전자 지원 시스템) 기술을 포함합니다.
+이는 종방향 지원 장치(가속·감속)와 함께 반자율 주행 및 자율주행 기술의 핵심 요소입니다.
+ESF : MKR
+
+
+# 레벨별 Mandatory(의무장착)
+
+
+# 자율주행차량의 시스템(ex brake system/steering system)은 redanduncy 설계적용 필요
+
+
+🚗 AEB (자동 긴급 제동, Autonomous Emergency Braking)란?
+AEB는 차량이 전방 충돌 위험을 감지했을 때 자동으로 브레이크를 작동시켜 사고를 예방하거나 피해를 줄이는 기능입니다.
+
+
+🚗 ABS (Anti-lock Braking System, 잠김 방지 브레이크 시스템)란?
+ABS는 급제동 시 바퀴가 잠기는 것을 방지하여 차량의 제어력을 유지하는 시스템입니다.
+🔹 주요 기능
+급제동 시 바퀴가 잠기는 것(타이어 미끄러짐)을 방지
+조향(핸들) 조작이 가능하도록 유지
+미끄러운 노면(비·눈길)에서도 안정적인 제동력 제공
+
+
+# 자율주행자동차 판매 법규
+lv3+(한국) : 법규적 안전기준 미충족시 판매불가
+lv3+(미국) : 법규적 안전기준 판매불가(주별 포괄적)
+
+
+
+
+
+# 자율주행자동차 운행 법규
+# 임시운행 허가
+요건(일반/안전운행) 만족->국토부장관 허가->9년 운행
+#일반요건
+자기인증 만족
+보험가입 만족
+#관제시스템->통신 레이턴시 수치제한  ex camera(30fps) latency <= 33ms   ->   allowed
+
+
+
+# 실차 평가
+호조건 평가
+
+
+
+# 시험운행 허가#자율주행자동차의 안전운행 및 시험운행 등에 관한 규정
+# 미국 시험운행 허가가 더 어려움.
+비용 1800원(21.3)
+비용 3600$(미국 캘리포니아 주 22.4)
+시험운행 속도제한 10km/h
+해외 허가사례
+
+
+
+# 시범운행지구
+
+
+
+# 사고발생률
+mkr의 40%가 보행자사고
+보행자사고의 대부분이 mkr, 갓길에서 발생
+
+
+
+Test
+Test License
+PG 평가 (Proving Ground 평가)란?
+**PG 평가(Proving Ground Test)**는 차량의 자율주행 및 ADAS(첨단 운전자 지원 시스템) 성능을 실제 환경에서 검증하는 시험입니다.
+주로 자율주행 기술, AEB(자동 긴급 제동), LKA(차선 유지 보조), ACC(어댑티브 크루즈 컨트롤) 등의 성능을 테스트하며, 차량의 안전성과 신뢰성을 평가하는 중요한 과정입니다.
+
+#기능(ex ABS/AEB/RCTA/LKAS/ACSF c/.....)별 테스트 평가 시나리오
+주간/야간
+dummy 
+레일 위의 다리가 움직이는 마네킹횡방향(at 차량시속5km))
+풍선? 종이 형태의 차량 
+레일 위의 자전거 탄 마네킹(자전거 tail->front 종방향, 횡방향(at 차량시속15km))
+아이/성인
+자전거 탑승 아이
+자전거 탑승 성인
+오토바이 탑승 성인
+negative false
+positive false : 더 위험
+
+#시스템 평가 통제변수 # 평가장소 #평가시간
+태양고도
+역광
+레이다 난반사 장애물 위치
+직선/곡선 도로
+유라인/무라인 아스팔트
+시간대
+장소
+
+평가 시나리오 vs simulation vs Real world 괴리
+유럽 형식승인
+한국 자기인증 #기능인증 #소티프
+
+**SOTIF (Safety of The Intended Functionality)**는 자율주행 및 첨단 운전자 지원 시스템(ADAS)의 의도된 기능 안전성을 보장하는 개념입니다. 
+이 개념은 자율주행차의 AI 시스템 및 센서가 의도된 대로 안전하게 작동하도록 설계된 것입니다. 
+특히, 기능적 결함이나 예상하지 못한 상황에서 발생할 수 있는 위험을 예방하는 데 중점을 둡니다.
+SOTIF는 중요한 안전 기준이 됩니다.
+
+
+
+실차 평가 #차로 변경
+#벤츠 편심주행
+목표차로
+차로변경절차 진행기준
+구조화 되어 나눠져있음, 까다로움. 까다로운데 이유가 있음.
+
+실차 평가 (Real world Test)
+from departure to dst 
+
+
+실차 평가 #감지 시스템 평가
+정방감지
+후방감지
+측방감지 : 9m
+
+
+
+자동차 국제기준
+뭐 부터 협력?->wp numbering
+UNECE WP.29 # Vehicle Regulations
+unece.org/Vehicle Regulations/#UN R157      #    운전제어권 전환 규칙    
+unece.org/Vehicle Regulations/170 DCAS # UN R170?
+unece.org/GRVA # 회의 session?
+Working Party.1 .... 29(자동차기준)
+WP.29(자동차기준 국제조화회의)
+
+
+WP.29 관련 협정기준
+UN Regulations
+UN GTRs
+
+
+
+서류평가->테스트 전용도로 평가->실도로평가(real world test)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+아이디어
+환경시험 ->환경시험 결과
+전기버스
+횡방향속도제한
+#조율 # 법규적 최적화 : 완화->강화->완화
+케이스별 제한규정 강화 ex 칼치기 ->차로변경운전의 진행 기준/...
+측위->인지->판단->제어->fuzzy logic->자율주행
+자율주행 운영체제
+TECHNICAL REQUIREMENT
+
+
+
+
+vscode 포터블 설치
+용량 크면 쪼개서 저장
+용량 크면 합쳐서 복구
+
+
+# 안전한 깃허브 레포 사용
+내 PC 가 아닌 환경인데 깃 허브로 레포에 git push 하싶은데  git logout
+
+비밀번호 대신 토큰 기반 로그인을 사용하면 나중에 토큰을 폐기할 수 있습니다.
+임시 환경에서는 GitHub 토큰을 생성해서 사용 후 삭제하는 게 가장 안전합니다.
+GitHub → Settings → Developer settings → Personal Access Token 생성
+git push 시 토큰 입력 후 사용
+작업이 끝나면 토큰 삭제
+
+
+
+자격증명 삭제 # windows
+git credential reject https://github.com
+
+
+식권
+교육 후 수료증 출력
+
+
+vscode 삭제
